@@ -1,0 +1,137 @@
+<resources>
+
+    <!--Activtiy转场动画-->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_entry</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_entry</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+    <!--Theme Dialog style-->
+    <style name="AppTheme.AppCompat.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:maxWidth">1080dp</item>
+    </style>
+
+    <!--112sp,textColorSecondary-->
+    <style name="AppText.Display4" parent="TextAppearance.AppCompat.Display4">
+        <item name="android:textSize">@dimen/sp_display4</item>
+    </style>
+
+    <style name="AppText.Display4.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <!--56sp,textColorSecondary-->
+    <style name="AppText.Display3" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:textSize">@dimen/sp_display3</item>
+    </style>
+
+    <style name="AppText.Display3.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <!--45sp,textColorSecondary-->
+    <style name="AppText.Display2" parent="TextAppearance.AppCompat.Display2">
+        <item name="android:textSize">@dimen/sp_display2</item>
+    </style>
+
+
+    <style name="AppText.Display2.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <!--34sp,textColorSecondary-->
+    <style name="AppText.Display1" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">@dimen/sp_display1</item>
+    </style>
+
+    <style name="AppText.Display1.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <!--24sp,textColorPrimary-->
+    <style name="AppText.Headline" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">@dimen/sp_headline</item>
+    </style>
+
+    <style name="AppText.Headline.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <!--20sp,textColorPrimary-->
+    <style name="AppText.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/sp_title</item>
+    </style>
+
+    <style name="AppText.Title.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <!--16sp,textColorPrimary-->
+    <style name="AppText.Subhead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/sp_subtitle</item>
+    </style>
+
+    <style name="AppText.Subhead.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+    <!--14sp,textColorPrimary-->
+    <style name="AppText.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/sp_body</item>
+    </style>
+
+    <style name="AppText.Body1.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <!--14sp,textColorPrimary-->
+    <style name="AppText.Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/sp_body</item>
+    </style>
+
+    <style name="AppText.Body2.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+    <!--12sp,textColorSecondary-->
+    <style name="AppText.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/sp_caption</item>
+    </style>
+
+    <style name="AppText.Caption.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+    <!--14sp,textColorPrimary-->
+    <style name="AppText.Menue" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/sp_menu</item>
+    </style>
+    <!--14sp,textColorPrimary-->
+    <style name="AppText.Button.Raised" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textSize">@dimen/sp_button</item>
+    </style>
+
+    <!--components-->
+    <style name="AppButton.Raised" parent="Widget.AppCompat.Button">
+        <item name="android:layout_marginLeft">@dimen/dp_padding_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/dp_padding_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/dp_padding_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/dp_padding_vertical</item>
+        <item name="android:textAppearance">@style/AppText.Button.Raised</item>
+    </style>
+
+    <style name="AppImageButton" parent="Widget.AppCompat.ImageButton" />
+
+    <style name="AppTab.Inverse" parent="Base.Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="tabSelectedTextColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="tabTextAppearance">@style/AppText.Tab</item>
+    </style>
+
+    <style name="AppText.Tab" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+</resources>

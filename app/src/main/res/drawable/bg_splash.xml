@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_Background" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_splash_default" />
+    </item>
+    <item
+        android:left="@dimen/dp_40"
+        android:right="@dimen/dp_40"
+        android:bottom="@dimen/dp_40">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/ic_splash_copy" />
+    </item>
+</layer-list>

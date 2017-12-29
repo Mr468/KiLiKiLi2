@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <dimen name="sp_display4">124.44sp</dimen>
+    <dimen name="sp_display3">80.00sp</dimen>
+    <dimen name="sp_display2">62.22sp</dimen>
+    <dimen name="sp_display1">35.56sp</dimen>
+    <dimen name="sp_headline">26.67sp</dimen>
+    <dimen name="sp_title">22.22sp</dimen>
+    <dimen name="sp_subtitle">17.78sp</dimen>
+    <dimen name="sp_body">15.56sp</dimen>
+    <dimen name="sp_caption">13.33sp</dimen>
+    <dimen name="sp_menu">15.56sp</dimen>
+    <dimen name="sp_button">15.56sp</dimen>
+    <dimen name="dp_height_space">8.89dp</dimen>
+    <dimen name="dp_padding_left">17.78dp</dimen>
+    <dimen name="dp_padding_right">17.78dp</dimen>
+    <dimen name="dp_padding_left_with_icon">80.00dp</dimen>
+    <dimen name="dp_padding_right_with_icon">80.00dp</dimen>
+    <dimen name="dp_height_item_single">53.33dp</dimen>
+    <dimen name="dp_height_item_single_with_icon">62.22dp</dimen>
+    <dimen name="dp_height_item_two">80.00dp</dimen>
+    <dimen name="dp_height_item_two_with_icon">80.00dp</dimen>
+    <dimen name="dp_height_item_three">97.78dp</dimen>
+    <dimen name="dp_height_item_three_with_icon">97.78dp</dimen>
+    <dimen name="dp_height_status_bar">26.67dp</dimen>
+    <dimen name="dp_height_tool_bar">62.22dp</dimen>
+    <dimen name="dp_height_app_bar">88.89dp</dimen>
+    <dimen name="dp_height_subtitle">53.33dp</dimen>
+    <dimen name="dp_width_navigation">337.78dp</dimen>
+    <dimen name="dp_height_ratio_16_9">225.00dp</dimen>
+    <dimen name="dp_height_ratio_3_2">266.67dp</dimen>
+    <dimen name="dp_height_ratio_4_3">300.00dp</dimen>
+    <dimen name="dp_height_ratio_1_1">400.00dp</dimen>
+    <dimen name="dp_height_ratio_3_4">533.33dp</dimen>
+    <dimen name="dp_height_ratio_2_3">600.00dp</dimen>
+    <dimen name="dp_size_icon">26.67dp</dimen>
+    <dimen name="dp_size_portrait">26.67dp</dimen>
+    <dimen name="dp_size_touch">53.33dp</dimen>
+</resources>

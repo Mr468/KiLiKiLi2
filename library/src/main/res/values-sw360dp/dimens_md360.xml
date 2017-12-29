@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--=======================字体大小===========================-->
+    <!--展示文字-->
+    <dimen name="sp_display4">112sp</dimen>
+    <dimen name="sp_display3">72sp</dimen>
+    <dimen name="sp_display2">56sp</dimen>
+    <dimen name="sp_display1">32sp</dimen>
+    <!--用于toolbar.Title或者appbar中描述性文字-->
+    <dimen name="sp_headline">24sp</dimen>
+    <!--用于规定列表条目文字-->
+    <dimen name="sp_title">20sp</dimen>
+    <dimen name="sp_subtitle">16sp</dimen>
+    <dimen name="sp_body">14sp</dimen>
+    <!--用于条目提示文字，例如时间等-->
+    <dimen name="sp_caption">12sp</dimen>
+    <!--菜单和按钮文字-->
+    <dimen name="sp_menu">14sp</dimen>
+    <dimen name="sp_button">14sp</dimen>
+    <!--特殊字体-->
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_11">11sp</dimen>
+    <!--========================字体大小===========================-->
+
+    <!--========================间距与边框========================-->
+    <!--留白高度-->
+    <dimen name="dp_height_space">8dp</dimen>
+    <dimen name="dp_height_divider">1dp</dimen>
+    <!--结构宽高-->
+    <dimen name="dp_height_status_bar">24dp</dimen>
+    <dimen name="dp_height_tool_bar">56dp</dimen>
+    <dimen name="dp_height_app_bar">80dp</dimen>
+    <dimen name="dp_height_subtitle">48dp</dimen>
+    <dimen name="dp_width_navigation">304dp</dimen>
+    <!--宽高比16:9-->
+    <dimen name="dp_height_nav_header">171dp</dimen>
+    <!--根据屏幕宽度和宽高比算出的高度
+    比如：屏宽360dp,宽高比16:9,高度即为:360/(16/9)=202.5dp-->
+    <dimen name="dp_height_ratio_16_9">202.5dp</dimen>
+    <dimen name="dp_height_ratio_3_2">240dp</dimen>
+    <dimen name="dp_height_ratio_4_3">270dp</dimen>
+    <dimen name="dp_height_ratio_1_1">360dp</dimen>
+    <dimen name="dp_height_ratio_3_4">480dp</dimen>
+    <dimen name="dp_height_ratio_2_3">540dp</dimen>
+    <!--图标头像和触摸尺寸-->
+    <dimen name="dp_size_icon">24dp</dimen>
+    <dimen name="dp_size_portrait">56dp</dimen>
+    <dimen name="dp_size_portrait_small">40dp</dimen>
+    <dimen name="dp_size_touch">48dp</dimen>
+    <!--水平和竖直边距-->
+    <dimen name="dp_padding_horizontal">16dp</dimen>
+    <dimen name="dp_padding_vertical">16dp</dimen>
+    <dimen name="dp_padding_horizontal_with_icon">72dp</dimen>
+    <!--列表条目行高-->
+    <dimen name="dp_item_height_single">48dp</dimen>
+    <dimen name="dp_item_height_single_with_icon">56dp</dimen>
+    <dimen name="dp_item_height_two">72dp</dimen>
+    <dimen name="dp_item_height_two_with_icon">72dp</dimen>
+    <dimen name="dp_item_height_three">88dp</dimen>
+    <dimen name="dp_item_height_three_with_icon">88dp</dimen>
+    <!--button-->
+    <dimen name="dp_height_button">48dp</dimen>
+    <dimen name="dp_height_bot_button">48dp</dimen>
+    <!--dialog-->
+    <dimen name="dp_padding_dialog">24dp</dimen>
+    <dimen name="dp_margin_dialog">40dp</dimen>
+    <!--文本框-->
+    <dimen name="dp_height_textview">48dp</dimen>
+    <!--TabLayout-->
+    <dimen name="dp_height_tab">48dp</dimen>
+    <dimen name="dp_height_sub_headline">48dp</dimen>
+
+    <!--CardView-->
+    <dimen name="dp_margin_cardview">8dp</dimen>
+    <dimen name="dp_padding_cardview">16dp</dimen>
+    <!--========================间距与边框========================-->
+
+</resources>

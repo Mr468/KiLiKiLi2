@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_height_banner">128dp</dimen>
+    <dimen name="dp_height_live_card">96dp</dimen>
+    <dimen name="dp_height_live_card_short">88dp</dimen>
+</resources>

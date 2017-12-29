@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/color_Primary</item>
+        <item name="colorPrimaryDark">@color/color_Primary_Dark</item>
+        <item name="colorAccent">@color/color_Accent</item>
+        <item name="android:colorBackground">@color/color_Background</item>
+
+        <!--CheckBox、EditText、Switch、Spinner、RadioButton等正常和控件激活颜色-->
+        <item name="colorControlNormal">@color/color_Control_Normal</item>
+        <item name="colorControlActivated">@color/color_Control_Activated</item>
+        <!--按钮按下状态和正常状态颜色-->
+        <item name="colorControlHighlight">@color/color_Control_Highlight</item>
+        <item name="colorButtonNormal">@color/color_Button_Normal</item>
+
+        <item name="android:windowBackground">@color/color_Background</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme" />
+
+</resources>

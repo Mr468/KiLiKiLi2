@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_height_nav_header"
+    android:background="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/background_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end|bottom"
+            android:clickable="true"
+            android:src="@drawable/bg_home_menu_click"
+            android:tint="@color/color_Tint" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_padding_vertical"
+        android:paddingLeft="@dimen/dp_padding_horizontal"
+        android:paddingRight="@dimen/dp_padding_horizontal"
+        android:paddingTop="@dimen/dp_padding_vertical">
+
+        <com.mk.kilikili.widget.CircleImageView
+            android:id="@+id/user_avatar_view"
+            android:layout_width="@dimen/dp_size_portrait"
+            android:layout_height="@dimen/dp_size_portrait"
+            android:src="@drawable/ico_user_default"
+            app:border_color="@android:color/white"
+            app:border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_height_space"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                />
+
+            <TextView
+                android:id="@+id/tv_level"
+                style="@style/AppText.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_padding_horizontal"
+                android:layout_marginStart="@dimen/dp_padding_horizontal"
+                android:background="@drawable/bg_border_white"
+                android:gravity="center"
+                android:text="@string/text_level" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/AppText.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_height_space"
+            android:text="@string/text_other_info" />
+    </LinearLayout>
+
+
+</FrameLayout>

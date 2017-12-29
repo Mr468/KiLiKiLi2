@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_Background">@color/pink_50</color>
+    <color name="color_Primary">@color/pink_300</color>
+    <color name="color_Primary_Dark">@color/pink_700</color>
+    <color name="color_Tint">@color/pink_400</color>
+
+    <color name="color_Control_Normal">@color/blue_500</color>
+    <color name="color_Control_Activated">@color/pink_300</color>
+    <color name="color_Control_Highlight">@color/pink_500</color>
+
+    <color name="color_Pressed">@color/pink_500</color>
+    <color name="color_Long_Pressed">@color/pink_500</color>
+    <color name="color_Button_Normal">@color/pink_300</color>
+    <color name="color_Button_Pressed">@color/pink_500</color>
+    <color name="color_Accent">@color/blue_500</color>
+
+    <color name="pink_50">#fffce4ec</color>
+    <color name="pink_100">#fff8bbd0</color>
+    <color name="pink_200">#fff48fb1</color>
+    <color name="pink_300">#fff06292</color>
+    <color name="pink_400">#ffec407a</color>
+    <color name="pink_500">#ffe91e63</color>
+    <color name="pink_600">#ffd81b60</color>
+    <color name="pink_700">#ffc2185b</color>
+    <color name="pink_800">#ffad1457</color>
+    <color name="pink_900">#ff880e4f</color>
+
+    <color name="blue_500">#5677fc</color>
+    <color name="blue_300">#91a7ff</color>
+</resources>

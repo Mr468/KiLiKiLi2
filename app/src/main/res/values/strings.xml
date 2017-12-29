@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">卡拉卡拉</string>
+    <string name="user_name">B站的臭虫</string>
+
+    <string-array name="sections">
+        <item>@string/section_live</item>
+        <item>@string/section_recommend</item>
+        <item>@string/section_bangumi</item>
+    </string-array>
+
+    <integer name="cardCorner">2</integer>
+    <integer-array name="cardCorners">
+        <item>@integer/cardCorner</item>
+        <item>@integer/cardCorner</item>
+        <item>@integer/cardCorner</item>
+        <item>@integer/cardCorner</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Navigation Items -->
+    <string name="item_home">主页</string>
+    <string name="item_partition">分区</string>
+    <string name="item_trends">动态</string>
+    <string name="item_discovery">发现</string>
+    <string name="item_mine">我的</string>
+    <string name="item_downloaded">离线缓存</string>
+    <string name="item_history">历史记录</string>
+    <string name="item_follow">关注的人</string>
+    <string name="item_theme">主题选择</string>
+    <string name="item_app">应用推荐</string>
+    <string name="item_settings">设置与帮助</string>
+
+    <!--Navigation Header-->
+    <string name="text_level">LV2</string>
+    <string name="text_other_info">硬币:0.00&#160;&#160;&#160;&#160;B币:0.00</string>
+
+    <!--Home-->
+    <string name="section_live">直播</string>
+    <string name="section_recommend">推荐</string>
+    <string name="section_bangumi">追番</string>
+
+    <!--Home live-->
+    <string name="home_live_follow">关注</string>
+    <string name="home_live_center">中心</string>
+    <string name="home_live_search">搜索</string>
+    <string name="home_live_partition">分类</string>
+
+    <!--Home recommend-->
+    <string name="home_recommend_web">广告</string>
+
+    <!--数据-->
+    <string name="data_error_load_error">加载失败~(≧▽≦)~啦啦啦.</string>
+    <string name="loading">正在加载&#8230;</string>
+    <string name="no_more">没有更多数据</string>
+</resources>
